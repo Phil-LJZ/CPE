@@ -1,4 +1,7 @@
 #include <stdio.h>
+#include <ctype.h>
+#include <stdlib.h>
+#include <stdbool.h>
 
 int atoi1(char *);
 
@@ -15,10 +18,20 @@ int atoi1(char * string)
     int size = 0;
     int temp = 1;
     int total = 0;
+    bool is_number;
     
     for(; *p != '\0'; p++, size++)
     {
-        ;
+        if (isdigit(*p))
+        {
+            is_number = true;
+        }
+        else
+        {
+            is_number = false;
+            printf("不是纯数字\n");
+            exit(EXIT_FAILURE);
+        }
     }
     p = string;
     for(int a = 0; a < size; a++)
