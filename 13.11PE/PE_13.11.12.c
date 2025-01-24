@@ -34,12 +34,13 @@ int main(void)
 
     for (row = 0; row < ROW; row++)
     {
-        for (col = 0; col < COL+1; col++)
+        for (col = 0; col < COL; col++)
         {
             ch = getc(fp_source);
             putc(ch, stdout);
             raw_data[row][col] = ch - 48;
         }
+        getc(fp_source); // 清除末尾换行符
     }
 
     for (row = 0; row < ROW; row++)
