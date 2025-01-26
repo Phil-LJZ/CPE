@@ -1,0 +1,10 @@
+5 Mike Trout 120 150 90 100
+7 Bryce Harper 115 140 85 95
+12 Mookie Betts 110 145 80 90
+5 Mike Trout 125 155 92 102
+3 Fernando Tatis 100 130 75 85
+9 Juan Soto 108 135 70 88
+15 Cody Bellinger 95 125 65 80
+2 Dustin Pedroia 98 120 60 75
+7 Bryce Harper 118 142 87 97
+11 Nolan Arenado 105 128 72 82
